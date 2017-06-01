@@ -1,0 +1,20 @@
+/* 
+  WarmIMLocalizable.strings
+  WarmIMImagePickerDemo
+
+  Created by LinJia on 2017/4/30.
+  Copyright © 2017年 shmily. All rights reserved.
+*/
+
+
+"test"="test";
+"Test"="Test";
+"about"="about";
+"About"="About";
+"SelectPicture"="Select Pictures";
+"TakeAPicture"="Take a picture";
+"Pictures"="Pictures";
+"Cancel"="Cancel";
+"Preview"="Preview";
+"Original"="Original";
+"OK"="OK";

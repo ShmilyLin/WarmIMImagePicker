@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2063701ED97B98009F4AD7 /* WarmIMCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20636F1ED97B98009F4AD7 /* WarmIMCameraViewController.m */; };
+		3A3876C51EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3876C41EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.m */; };
+		3A4462191ED1BAF8002EA1A3 /* WarmIMTestColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4462181ED1BAF8002EA1A3 /* WarmIMTestColorModel.m */; };
+		3A44621D1ED1BD37002EA1A3 /* TestOptionData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A44621C1ED1BD37002EA1A3 /* TestOptionData.plist */; };
+		3A4462201ED1CCA1002EA1A3 /* NSObject+model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A44621F1ED1CCA1002EA1A3 /* NSObject+model.m */; };
+		3A4462221ED1E7DE002EA1A3 /* TestColorData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A4462211ED1E7DE002EA1A3 /* TestColorData.plist */; };
+		3A4462251ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4462241ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.m */; };
+		3A45A8361EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45A8351EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.m */; };
+		3A45A8391EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45A8381EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.m */; };
+		3A6A25981EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A25971EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.m */; };
+		3A6A259E1EB32C0600C1E5DA /* WarmIMImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A259D1EB32C0600C1E5DA /* WarmIMImagePickerManager.m */; };
+		3A8BAE991ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAE981ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.m */; };
+		3A8BAE9C1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAE9B1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.m */; };
+		3A8BAE9F1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAE9E1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.m */; };
+		3A8EA1CF1EBC40AA0045746C /* WarmIMImagePickerFetchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA1CE1EBC40AA0045746C /* WarmIMImagePickerFetchResults.m */; };
+		3A8EA1D21EBC41580045746C /* WarmIMImagePickerAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EA1D11EBC41580045746C /* WarmIMImagePickerAssetModel.m */; };
+		3A905A6C1ECEB2020013068C /* UINavigationController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A905A6B1ECEB2020013068C /* UINavigationController+BackButtonHandler.m */; };
+		3A905A6F1ECED3A20013068C /* WarmIMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A905A6E1ECED3A20013068C /* WarmIMNavigationController.m */; };
+		3A91AB981EB49B6600E40610 /* WarmIMAlbumsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A91AB971EB49B6600E40610 /* WarmIMAlbumsListViewController.m */; };
+		3A91AB9B1EB49BCB00E40610 /* WarmIMPhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A91AB9A1EB49BCB00E40610 /* WarmIMPhotosListViewController.m */; };
+		3A93D2011ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D2001ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.m */; };
+		3A93D2071ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D2061ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.m */; };
+		3A93D20A1ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D2091ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.m */; };
+		3A93D20D1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D20C1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.m */; };
+		3A93D2101ED004430093BE36 /* WarmIMTestTableViewPickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D20F1ED004430093BE36 /* WarmIMTestTableViewPickCell.m */; };
+		3A93D2131ED005070093BE36 /* WarmIMTestTableViewShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D2121ED005070093BE36 /* WarmIMTestTableViewShowCell.m */; };
+		3A93D21A1ED035500093BE36 /* WarmIMAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D2191ED035500093BE36 /* WarmIMAlertController.m */; };
+		3A93D21D1ED03E5C0093BE36 /* WarmIMAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D21C1ED03E5C0093BE36 /* WarmIMAlertAction.m */; };
+		3A93D2201ED0690F0093BE36 /* WarmIMAlertTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93D21F1ED0690F0093BE36 /* WarmIMAlertTableViewCell.m */; };
+		3A93F8EF1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93F8EE1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.m */; };
+		3A93F8F21ECD877B00DFE77C /* WarmIMVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93F8F11ECD877B00DFE77C /* WarmIMVideoPreviewViewController.m */; };
+		3A93F8F51ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A93F8F41ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.m */; };
+		3A9BC6611EB5C36C00A30891 /* WarmIMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A9BC6631EB5C36C00A30891 /* WarmIMLocalizable.strings */; };
+		3A9BC6691EB5C75500A30891 /* WarmIMGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BC6681EB5C75500A30891 /* WarmIMGlobal.m */; };
+		3A9BC66C1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BC66B1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.m */; };
+		3AB310FC1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB310FB1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.m */; };
+		3AB310FF1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB310FE1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.m */; };
+		3AB311021EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB311011EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.m */; };
+		3AB311051EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB311041EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.m */; };
+		3ABC449E1EC078EC0016BD28 /* WarmIMHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC449D1EC078EC0016BD28 /* WarmIMHUD.m */; };
+		3ABC44A11EC07A510016BD28 /* WarmIMHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC44A01EC07A510016BD28 /* WarmIMHUDView.m */; };
+		3AF066CD1EB1DF1900447A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF066CC1EB1DF1900447A42 /* main.m */; };
+		3AF066D01EB1DF1900447A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF066CF1EB1DF1900447A42 /* AppDelegate.m */; };
+		3AF066D31EB1DF1900447A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF066D21EB1DF1900447A42 /* ViewController.m */; };
+		3AF066D61EB1DF1900447A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF066D41EB1DF1900447A42 /* Main.storyboard */; };
+		3AF066D81EB1DF1900447A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF066D71EB1DF1900447A42 /* Assets.xcassets */; };
+		3AF066DB1EB1DF1900447A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF066D91EB1DF1900447A42 /* LaunchScreen.storyboard */; };
+		3AF066E61EB1DF1900447A42 /* WarmIMImagePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF066E51EB1DF1900447A42 /* WarmIMImagePickerDemoTests.m */; };
+		3AF066F11EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF066F01EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.m */; };
+		3AF0670A1EB21C8000447A42 /* WarmIMBasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF067091EB21C8000447A42 /* WarmIMBasicNavigationController.m */; };
+		3AF0670D1EB21CAF00447A42 /* WarmIMBasicTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0670C1EB21CAF00447A42 /* WarmIMBasicTabbarController.m */; };
+		3AF067131EB21F8900447A42 /* WarmIMTestBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF067121EB21F8900447A42 /* WarmIMTestBasicViewController.m */; };
+		3AF067161EB21F9E00447A42 /* WarmIMAboutBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF067151EB21F9E00447A42 /* WarmIMAboutBasicViewController.m */; };
+		3AFB4D0F1ED72A3400D9B500 /* WarmIMVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB4D0E1ED72A3400D9B500 /* WarmIMVideoView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AF066E21EB1DF1900447A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AF066C01EB1DF1800447A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF066C71EB1DF1800447A42;
+			remoteInfo = WarmIMImagePickerDemo;
+		};
+		3AF066ED1EB1DF1900447A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AF066C01EB1DF1800447A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF066C71EB1DF1800447A42;
+			remoteInfo = WarmIMImagePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A20636E1ED97B98009F4AD7 /* WarmIMCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMCameraViewController.h; sourceTree = "<group>"; };
+		3A20636F1ED97B98009F4AD7 /* WarmIMCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMCameraViewController.m; sourceTree = "<group>"; };
+		3A3876C31EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionModel.h; sourceTree = "<group>"; };
+		3A3876C41EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionModel.m; sourceTree = "<group>"; };
+		3A4462171ED1BAF8002EA1A3 /* WarmIMTestColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestColorModel.h; sourceTree = "<group>"; };
+		3A4462181ED1BAF8002EA1A3 /* WarmIMTestColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestColorModel.m; sourceTree = "<group>"; };
+		3A44621C1ED1BD37002EA1A3 /* TestOptionData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestOptionData.plist; sourceTree = "<group>"; };
+		3A44621E1ED1CCA1002EA1A3 /* NSObject+model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+model.h"; sourceTree = "<group>"; };
+		3A44621F1ED1CCA1002EA1A3 /* NSObject+model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+model.m"; sourceTree = "<group>"; };
+		3A4462211ED1E7DE002EA1A3 /* TestColorData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestColorData.plist; sourceTree = "<group>"; };
+		3A4462231ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerVideoPreviewBottomView.h; sourceTree = "<group>"; };
+		3A4462241ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerVideoPreviewBottomView.m; sourceTree = "<group>"; };
+		3A45A8341EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMHorizontalPanGestureRecognizer.h; sourceTree = "<group>"; };
+		3A45A8351EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMHorizontalPanGestureRecognizer.m; sourceTree = "<group>"; };
+		3A45A8371EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		3A45A8381EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		3A6A25961EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WarmIMImagePicker.h"; sourceTree = "<group>"; };
+		3A6A25971EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WarmIMImagePicker.m"; sourceTree = "<group>"; };
+		3A6A259C1EB32C0600C1E5DA /* WarmIMImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerManager.h; sourceTree = "<group>"; };
+		3A6A259D1EB32C0600C1E5DA /* WarmIMImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerManager.m; sourceTree = "<group>"; };
+		3A8BAE971ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePreviewViewController.h; sourceTree = "<group>"; };
+		3A8BAE981ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePreviewViewController.m; sourceTree = "<group>"; };
+		3A8BAE9A1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewImagePreviewCell.h; sourceTree = "<group>"; };
+		3A8BAE9B1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewImagePreviewCell.m; sourceTree = "<group>"; };
+		3A8BAE9D1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerPreviewBottomView.h; sourceTree = "<group>"; };
+		3A8BAE9E1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerPreviewBottomView.m; sourceTree = "<group>"; };
+		3A8EA1CD1EBC40AA0045746C /* WarmIMImagePickerFetchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerFetchResults.h; sourceTree = "<group>"; };
+		3A8EA1CE1EBC40AA0045746C /* WarmIMImagePickerFetchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerFetchResults.m; sourceTree = "<group>"; };
+		3A8EA1D01EBC41580045746C /* WarmIMImagePickerAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerAssetModel.h; sourceTree = "<group>"; };
+		3A8EA1D11EBC41580045746C /* WarmIMImagePickerAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerAssetModel.m; sourceTree = "<group>"; };
+		3A905A6A1ECEB2020013068C /* UINavigationController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		3A905A6B1ECEB2020013068C /* UINavigationController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		3A905A6D1ECED3A20013068C /* WarmIMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMNavigationController.h; sourceTree = "<group>"; };
+		3A905A6E1ECED3A20013068C /* WarmIMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMNavigationController.m; sourceTree = "<group>"; };
+		3A91AB961EB49B6600E40610 /* WarmIMAlbumsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMAlbumsListViewController.h; sourceTree = "<group>"; };
+		3A91AB971EB49B6600E40610 /* WarmIMAlbumsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMAlbumsListViewController.m; sourceTree = "<group>"; };
+		3A91AB991EB49BCB00E40610 /* WarmIMPhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMPhotosListViewController.h; sourceTree = "<group>"; };
+		3A91AB9A1EB49BCB00E40610 /* WarmIMPhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMPhotosListViewController.m; sourceTree = "<group>"; };
+		3A93D1FF1ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestTableViewSwitchCell.h; sourceTree = "<group>"; };
+		3A93D2001ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestTableViewSwitchCell.m; sourceTree = "<group>"; };
+		3A93D2051ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestOptionItemModel.h; sourceTree = "<group>"; };
+		3A93D2061ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestOptionItemModel.m; sourceTree = "<group>"; };
+		3A93D2081ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestTableViewMoreCell.h; sourceTree = "<group>"; };
+		3A93D2091ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestTableViewMoreCell.m; sourceTree = "<group>"; };
+		3A93D20B1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestTableViewDefaultCell.h; sourceTree = "<group>"; };
+		3A93D20C1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestTableViewDefaultCell.m; sourceTree = "<group>"; };
+		3A93D20E1ED004430093BE36 /* WarmIMTestTableViewPickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestTableViewPickCell.h; sourceTree = "<group>"; };
+		3A93D20F1ED004430093BE36 /* WarmIMTestTableViewPickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestTableViewPickCell.m; sourceTree = "<group>"; };
+		3A93D2111ED005070093BE36 /* WarmIMTestTableViewShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestTableViewShowCell.h; sourceTree = "<group>"; };
+		3A93D2121ED005070093BE36 /* WarmIMTestTableViewShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestTableViewShowCell.m; sourceTree = "<group>"; };
+		3A93D2181ED035500093BE36 /* WarmIMAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMAlertController.h; sourceTree = "<group>"; };
+		3A93D2191ED035500093BE36 /* WarmIMAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMAlertController.m; sourceTree = "<group>"; };
+		3A93D21B1ED03E5C0093BE36 /* WarmIMAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMAlertAction.h; sourceTree = "<group>"; };
+		3A93D21C1ED03E5C0093BE36 /* WarmIMAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMAlertAction.m; sourceTree = "<group>"; };
+		3A93D21E1ED0690F0093BE36 /* WarmIMAlertTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMAlertTableViewCell.h; sourceTree = "<group>"; };
+		3A93D21F1ED0690F0093BE36 /* WarmIMAlertTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMAlertTableViewCell.m; sourceTree = "<group>"; };
+		3A93F8ED1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewLivePhotoCell.h; sourceTree = "<group>"; };
+		3A93F8EE1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewLivePhotoCell.m; sourceTree = "<group>"; };
+		3A93F8F01ECD877B00DFE77C /* WarmIMVideoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMVideoPreviewViewController.h; sourceTree = "<group>"; };
+		3A93F8F11ECD877B00DFE77C /* WarmIMVideoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMVideoPreviewViewController.m; sourceTree = "<group>"; };
+		3A93F8F31ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerLivePhotoPreviewCell.h; sourceTree = "<group>"; };
+		3A93F8F41ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerLivePhotoPreviewCell.m; sourceTree = "<group>"; };
+		3A9BC6621EB5C36C00A30891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WarmIMLocalizable.strings; sourceTree = "<group>"; };
+		3A9BC6641EB5C46200A30891 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/WarmIMLocalizable.strings"; sourceTree = "<group>"; };
+		3A9BC6651EB5C46200A30891 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3A9BC6661EB5C46200A30891 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3A9BC6671EB5C75500A30891 /* WarmIMGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMGlobal.h; sourceTree = "<group>"; };
+		3A9BC6681EB5C75500A30891 /* WarmIMGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMGlobal.m; sourceTree = "<group>"; };
+		3A9BC66A1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerAlbumTableViewCell.h; sourceTree = "<group>"; };
+		3A9BC66B1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerAlbumTableViewCell.m; sourceTree = "<group>"; };
+		3AB310FA1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewImageCell.h; sourceTree = "<group>"; };
+		3AB310FB1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewImageCell.m; sourceTree = "<group>"; };
+		3AB310FD1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewVideoCell.h; sourceTree = "<group>"; };
+		3AB310FE1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewVideoCell.m; sourceTree = "<group>"; };
+		3AB311001EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionBottomView.h; sourceTree = "<group>"; };
+		3AB311011EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionBottomView.m; sourceTree = "<group>"; };
+		3AB311031EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMImagePickerCollectionViewCameraCell.h; sourceTree = "<group>"; };
+		3AB311041EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerCollectionViewCameraCell.m; sourceTree = "<group>"; };
+		3ABC449C1EC078EC0016BD28 /* WarmIMHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMHUD.h; sourceTree = "<group>"; };
+		3ABC449D1EC078EC0016BD28 /* WarmIMHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMHUD.m; sourceTree = "<group>"; };
+		3ABC449F1EC07A510016BD28 /* WarmIMHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMHUDView.h; sourceTree = "<group>"; };
+		3ABC44A01EC07A510016BD28 /* WarmIMHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMHUDView.m; sourceTree = "<group>"; };
+		3AF066C81EB1DF1800447A42 /* WarmIMImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmIMImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF066CC1EB1DF1900447A42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AF066CE1EB1DF1900447A42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AF066CF1EB1DF1900447A42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AF066D11EB1DF1900447A42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AF066D21EB1DF1900447A42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AF066D51EB1DF1900447A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AF066D71EB1DF1900447A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AF066DA1EB1DF1900447A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AF066DC1EB1DF1900447A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF066E11EB1DF1900447A42 /* WarmIMImagePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmIMImagePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF066E51EB1DF1900447A42 /* WarmIMImagePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerDemoTests.m; sourceTree = "<group>"; };
+		3AF066E71EB1DF1900447A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF066EC1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmIMImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF066F01EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmIMImagePickerDemoUITests.m; sourceTree = "<group>"; };
+		3AF066F21EB1DF1900447A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF067081EB21C8000447A42 /* WarmIMBasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMBasicNavigationController.h; sourceTree = "<group>"; };
+		3AF067091EB21C8000447A42 /* WarmIMBasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMBasicNavigationController.m; sourceTree = "<group>"; };
+		3AF0670B1EB21CAF00447A42 /* WarmIMBasicTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMBasicTabbarController.h; sourceTree = "<group>"; };
+		3AF0670C1EB21CAF00447A42 /* WarmIMBasicTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMBasicTabbarController.m; sourceTree = "<group>"; };
+		3AF0670E1EB21D0900447A42 /* WarmIMImagePickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarmIMImagePickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3AF067111EB21F8900447A42 /* WarmIMTestBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMTestBasicViewController.h; sourceTree = "<group>"; };
+		3AF067121EB21F8900447A42 /* WarmIMTestBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMTestBasicViewController.m; sourceTree = "<group>"; };
+		3AF067141EB21F9E00447A42 /* WarmIMAboutBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMAboutBasicViewController.h; sourceTree = "<group>"; };
+		3AF067151EB21F9E00447A42 /* WarmIMAboutBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMAboutBasicViewController.m; sourceTree = "<group>"; };
+		3AFB4D0D1ED72A3400D9B500 /* WarmIMVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmIMVideoView.h; sourceTree = "<group>"; };
+		3AFB4D0E1ED72A3400D9B500 /* WarmIMVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmIMVideoView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF066C51EB1DF1800447A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066DE1EB1DF1900447A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066E91EB1DF1900447A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A44621A1ED1BD01002EA1A3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A44621C1ED1BD37002EA1A3 /* TestOptionData.plist */,
+				3A4462211ED1E7DE002EA1A3 /* TestColorData.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A44621B1ED1BD01002EA1A3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3A45A8301EC454E0007BB062 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3A45A8341EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.h */,
+				3A45A8351EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.m */,
+				3A45A8371EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.h */,
+				3A45A8381EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.m */,
+				3A905A6A1ECEB2020013068C /* UINavigationController+BackButtonHandler.h */,
+				3A905A6B1ECEB2020013068C /* UINavigationController+BackButtonHandler.m */,
+				3AFB4D091ED72A2000D9B500 /* WarmIMVideoView */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3A6A25991EB3231E00C1E5DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A91AB961EB49B6600E40610 /* WarmIMAlbumsListViewController.h */,
+				3A91AB971EB49B6600E40610 /* WarmIMAlbumsListViewController.m */,
+				3A91AB991EB49BCB00E40610 /* WarmIMPhotosListViewController.h */,
+				3A91AB9A1EB49BCB00E40610 /* WarmIMPhotosListViewController.m */,
+				3A8BAE971ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.h */,
+				3A8BAE981ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.m */,
+				3A93F8F01ECD877B00DFE77C /* WarmIMVideoPreviewViewController.h */,
+				3A93F8F11ECD877B00DFE77C /* WarmIMVideoPreviewViewController.m */,
+				3A905A6D1ECED3A20013068C /* WarmIMNavigationController.h */,
+				3A905A6E1ECED3A20013068C /* WarmIMNavigationController.m */,
+				3A20636E1ED97B98009F4AD7 /* WarmIMCameraViewController.h */,
+				3A20636F1ED97B98009F4AD7 /* WarmIMCameraViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A6A259A1EB3231E00C1E5DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A3876C31EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.h */,
+				3A3876C41EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.m */,
+				3A8EA1CD1EBC40AA0045746C /* WarmIMImagePickerFetchResults.h */,
+				3A8EA1CE1EBC40AA0045746C /* WarmIMImagePickerFetchResults.m */,
+				3A8EA1D01EBC41580045746C /* WarmIMImagePickerAssetModel.h */,
+				3A8EA1D11EBC41580045746C /* WarmIMImagePickerAssetModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A6A259B1EB3231E00C1E5DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A9BC66A1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.h */,
+				3A9BC66B1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.m */,
+				3AB310FA1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.h */,
+				3AB310FB1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.m */,
+				3AB310FD1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.h */,
+				3AB310FE1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.m */,
+				3AB311001EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.h */,
+				3AB311011EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.m */,
+				3AB311031EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.h */,
+				3AB311041EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.m */,
+				3A8BAE9A1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.h */,
+				3A8BAE9B1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.m */,
+				3A8BAE9D1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.h */,
+				3A8BAE9E1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.m */,
+				3A93F8ED1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.h */,
+				3A93F8EE1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.m */,
+				3A93F8F31ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.h */,
+				3A93F8F41ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.m */,
+				3A4462231ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.h */,
+				3A4462241ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A93D1FC1ECFEA0C0093BE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D2051ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.h */,
+				3A93D2061ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.m */,
+				3A4462171ED1BAF8002EA1A3 /* WarmIMTestColorModel.h */,
+				3A4462181ED1BAF8002EA1A3 /* WarmIMTestColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A93D1FD1ECFEA0C0093BE36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D1FF1ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.h */,
+				3A93D2001ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.m */,
+				3A93D2081ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.h */,
+				3A93D2091ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.m */,
+				3A93D20B1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.h */,
+				3A93D20C1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.m */,
+				3A93D20E1ED004430093BE36 /* WarmIMTestTableViewPickCell.h */,
+				3A93D20F1ED004430093BE36 /* WarmIMTestTableViewPickCell.m */,
+				3A93D2111ED005070093BE36 /* WarmIMTestTableViewShowCell.h */,
+				3A93D2121ED005070093BE36 /* WarmIMTestTableViewShowCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A93D1FE1ECFEA0C0093BE36 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3A93D2141ED035310093BE36 /* WarmIMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D2151ED035310093BE36 /* Controller */,
+				3A93D2161ED035310093BE36 /* Model */,
+				3A93D2171ED035310093BE36 /* View */,
+			);
+			path = WarmIMAlertController;
+			sourceTree = "<group>";
+		};
+		3A93D2151ED035310093BE36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D2181ED035500093BE36 /* WarmIMAlertController.h */,
+				3A93D2191ED035500093BE36 /* WarmIMAlertController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A93D2161ED035310093BE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D21B1ED03E5C0093BE36 /* WarmIMAlertAction.h */,
+				3A93D21C1ED03E5C0093BE36 /* WarmIMAlertAction.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A93D2171ED035310093BE36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D21E1ED0690F0093BE36 /* WarmIMAlertTableViewCell.h */,
+				3A93D21F1ED0690F0093BE36 /* WarmIMAlertTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3ABC449B1EC078D40016BD28 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3ABC449C1EC078EC0016BD28 /* WarmIMHUD.h */,
+				3ABC449D1EC078EC0016BD28 /* WarmIMHUD.m */,
+				3ABC449F1EC07A510016BD28 /* WarmIMHUDView.h */,
+				3ABC44A01EC07A510016BD28 /* WarmIMHUDView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3AF066BF1EB1DF1800447A42 = {
+			isa = PBXGroup;
+			children = (
+				3AF066CA1EB1DF1800447A42 /* WarmIMImagePickerDemo */,
+				3AF066E41EB1DF1900447A42 /* WarmIMImagePickerDemoTests */,
+				3AF066EF1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests */,
+				3AF066C91EB1DF1800447A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF066C91EB1DF1800447A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF066C81EB1DF1800447A42 /* WarmIMImagePickerDemo.app */,
+				3AF066E11EB1DF1900447A42 /* WarmIMImagePickerDemoTests.xctest */,
+				3AF066EC1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF066CA1EB1DF1800447A42 /* WarmIMImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AF066CE1EB1DF1900447A42 /* AppDelegate.h */,
+				3AF066CF1EB1DF1900447A42 /* AppDelegate.m */,
+				3AF067081EB21C8000447A42 /* WarmIMBasicNavigationController.h */,
+				3AF067091EB21C8000447A42 /* WarmIMBasicNavigationController.m */,
+				3AF0670B1EB21CAF00447A42 /* WarmIMBasicTabbarController.h */,
+				3AF0670C1EB21CAF00447A42 /* WarmIMBasicTabbarController.m */,
+				3AF066D11EB1DF1900447A42 /* ViewController.h */,
+				3AF066D21EB1DF1900447A42 /* ViewController.m */,
+				3AF066FE1EB21BDF00447A42 /* General */,
+				3AF066FF1EB21BDF00447A42 /* Resources */,
+				3AF067001EB21BDF00447A42 /* Sections */,
+				3AF067011EB21BDF00447A42 /* Vendors */,
+				3AF067021EB21BDF00447A42 /* WarmIMImagePicker */,
+				3AF066D41EB1DF1900447A42 /* Main.storyboard */,
+				3AF066D71EB1DF1900447A42 /* Assets.xcassets */,
+				3AF066D91EB1DF1900447A42 /* LaunchScreen.storyboard */,
+				3AF066DC1EB1DF1900447A42 /* Info.plist */,
+				3AF066CB1EB1DF1900447A42 /* Supporting Files */,
+				3AF0670E1EB21D0900447A42 /* WarmIMImagePickerDemo-Prefix.pch */,
+				3A9BC6631EB5C36C00A30891 /* WarmIMLocalizable.strings */,
+			);
+			path = WarmIMImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		3AF066CB1EB1DF1900447A42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF066CC1EB1DF1900447A42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AF066E41EB1DF1900447A42 /* WarmIMImagePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AF066E51EB1DF1900447A42 /* WarmIMImagePickerDemoTests.m */,
+				3AF066E71EB1DF1900447A42 /* Info.plist */,
+			);
+			path = WarmIMImagePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		3AF066EF1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AF066F01EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.m */,
+				3AF066F21EB1DF1900447A42 /* Info.plist */,
+			);
+			path = WarmIMImagePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		3AF066FE1EB21BDF00447A42 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3AF067031EB21C1600447A42 /* Basic */,
+				3AF067041EB21C1600447A42 /* Category */,
+				3AF067051EB21C1600447A42 /* Helper */,
+				3AF067061EB21C1600447A42 /* Macro */,
+				3AF067071EB21C1600447A42 /* Model */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3AF066FF1EB21BDF00447A42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A44621A1ED1BD01002EA1A3 /* Data */,
+				3A44621B1ED1BD01002EA1A3 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AF067001EB21BDF00447A42 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				3AF0670F1EB21F6400447A42 /* About */,
+				3AF067101EB21F6400447A42 /* Test */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		3AF067011EB21BDF00447A42 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		3AF067021EB21BDF00447A42 /* WarmIMImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3A6A259C1EB32C0600C1E5DA /* WarmIMImagePickerManager.h */,
+				3A6A259D1EB32C0600C1E5DA /* WarmIMImagePickerManager.m */,
+				3A45A8301EC454E0007BB062 /* Helper */,
+				3ABC449B1EC078D40016BD28 /* Tools */,
+				3A6A25991EB3231E00C1E5DA /* Controller */,
+				3A6A259A1EB3231E00C1E5DA /* Model */,
+				3A6A259B1EB3231E00C1E5DA /* View */,
+				3A6A25961EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.h */,
+				3A6A25971EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.m */,
+			);
+			path = WarmIMImagePicker;
+			sourceTree = "<group>";
+		};
+		3AF067031EB21C1600447A42 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		3AF067041EB21C1600447A42 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3A44621E1ED1CCA1002EA1A3 /* NSObject+model.h */,
+				3A44621F1ED1CCA1002EA1A3 /* NSObject+model.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3AF067051EB21C1600447A42 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3A93D2141ED035310093BE36 /* WarmIMAlertController */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3AF067061EB21C1600447A42 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				3A9BC6671EB5C75500A30891 /* WarmIMGlobal.h */,
+				3A9BC6681EB5C75500A30891 /* WarmIMGlobal.m */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3AF067071EB21C1600447A42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AF0670F1EB21F6400447A42 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				3AF067141EB21F9E00447A42 /* WarmIMAboutBasicViewController.h */,
+				3AF067151EB21F9E00447A42 /* WarmIMAboutBasicViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		3AF067101EB21F6400447A42 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3AF067111EB21F8900447A42 /* WarmIMTestBasicViewController.h */,
+				3AF067121EB21F8900447A42 /* WarmIMTestBasicViewController.m */,
+				3A93D1FC1ECFEA0C0093BE36 /* Model */,
+				3A93D1FD1ECFEA0C0093BE36 /* View */,
+				3A93D1FE1ECFEA0C0093BE36 /* ViewController */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		3AFB4D091ED72A2000D9B500 /* WarmIMVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB4D0A1ED72A2000D9B500 /* Model */,
+				3AFB4D0B1ED72A2000D9B500 /* View */,
+				3AFB4D0C1ED72A2000D9B500 /* ViewController */,
+			);
+			path = WarmIMVideoView;
+			sourceTree = "<group>";
+		};
+		3AFB4D0A1ED72A2000D9B500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AFB4D0B1ED72A2000D9B500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB4D0D1ED72A3400D9B500 /* WarmIMVideoView.h */,
+				3AFB4D0E1ED72A3400D9B500 /* WarmIMVideoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AFB4D0C1ED72A2000D9B500 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF066C71EB1DF1800447A42 /* WarmIMImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF066F51EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemo" */;
+			buildPhases = (
+				3AF066C41EB1DF1800447A42 /* Sources */,
+				3AF066C51EB1DF1800447A42 /* Frameworks */,
+				3AF066C61EB1DF1800447A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarmIMImagePickerDemo;
+			productName = WarmIMImagePickerDemo;
+			productReference = 3AF066C81EB1DF1800447A42 /* WarmIMImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AF066E01EB1DF1900447A42 /* WarmIMImagePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF066F81EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemoTests" */;
+			buildPhases = (
+				3AF066DD1EB1DF1900447A42 /* Sources */,
+				3AF066DE1EB1DF1900447A42 /* Frameworks */,
+				3AF066DF1EB1DF1900447A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF066E31EB1DF1900447A42 /* PBXTargetDependency */,
+			);
+			name = WarmIMImagePickerDemoTests;
+			productName = WarmIMImagePickerDemoTests;
+			productReference = 3AF066E11EB1DF1900447A42 /* WarmIMImagePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AF066EB1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF066FB1EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemoUITests" */;
+			buildPhases = (
+				3AF066E81EB1DF1900447A42 /* Sources */,
+				3AF066E91EB1DF1900447A42 /* Frameworks */,
+				3AF066EA1EB1DF1900447A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF066EE1EB1DF1900447A42 /* PBXTargetDependency */,
+			);
+			name = WarmIMImagePickerDemoUITests;
+			productName = WarmIMImagePickerDemoUITests;
+			productReference = 3AF066EC1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF066C01EB1DF1800447A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shmily;
+				TargetAttributes = {
+					3AF066C71EB1DF1800447A42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = D9M65W7H87;
+						ProvisioningStyle = Automatic;
+					};
+					3AF066E01EB1DF1900447A42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AF066C71EB1DF1800447A42;
+					};
+					3AF066EB1EB1DF1900447A42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AF066C71EB1DF1800447A42;
+					};
+				};
+			};
+			buildConfigurationList = 3AF066C31EB1DF1800447A42 /* Build configuration list for PBXProject "WarmIMImagePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3AF066BF1EB1DF1800447A42;
+			productRefGroup = 3AF066C91EB1DF1800447A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF066C71EB1DF1800447A42 /* WarmIMImagePickerDemo */,
+				3AF066E01EB1DF1900447A42 /* WarmIMImagePickerDemoTests */,
+				3AF066EB1EB1DF1900447A42 /* WarmIMImagePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF066C61EB1DF1800447A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9BC6611EB5C36C00A30891 /* WarmIMLocalizable.strings in Resources */,
+				3AF066DB1EB1DF1900447A42 /* LaunchScreen.storyboard in Resources */,
+				3A44621D1ED1BD37002EA1A3 /* TestOptionData.plist in Resources */,
+				3AF066D81EB1DF1900447A42 /* Assets.xcassets in Resources */,
+				3A4462221ED1E7DE002EA1A3 /* TestColorData.plist in Resources */,
+				3AF066D61EB1DF1900447A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066DF1EB1DF1900447A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066EA1EB1DF1900447A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF066C41EB1DF1800447A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A905A6C1ECEB2020013068C /* UINavigationController+BackButtonHandler.m in Sources */,
+				3A9BC66C1EB5F24200A30891 /* WarmIMImagePickerAlbumTableViewCell.m in Sources */,
+				3AF066D31EB1DF1900447A42 /* ViewController.m in Sources */,
+				3A45A8361EC4575A007BB062 /* WarmIMHorizontalPanGestureRecognizer.m in Sources */,
+				3A93F8F21ECD877B00DFE77C /* WarmIMVideoPreviewViewController.m in Sources */,
+				3A8BAE991ECC8ACE00E20B5A /* WarmIMImagePreviewViewController.m in Sources */,
+				3AF0670A1EB21C8000447A42 /* WarmIMBasicNavigationController.m in Sources */,
+				3AF067131EB21F8900447A42 /* WarmIMTestBasicViewController.m in Sources */,
+				3A93D20D1ED004320093BE36 /* WarmIMTestTableViewDefaultCell.m in Sources */,
+				3A45A8391EC48370007BB062 /* WarmIMImagePickerCollectionViewLayout.m in Sources */,
+				3A9BC6691EB5C75500A30891 /* WarmIMGlobal.m in Sources */,
+				3A93D2131ED005070093BE36 /* WarmIMTestTableViewShowCell.m in Sources */,
+				3AF066D01EB1DF1900447A42 /* AppDelegate.m in Sources */,
+				3A6A259E1EB32C0600C1E5DA /* WarmIMImagePickerManager.m in Sources */,
+				3A8EA1D21EBC41580045746C /* WarmIMImagePickerAssetModel.m in Sources */,
+				3A91AB9B1EB49BCB00E40610 /* WarmIMPhotosListViewController.m in Sources */,
+				3AB310FF1EC183D7007D8264 /* WarmIMImagePickerCollectionViewVideoCell.m in Sources */,
+				3A93D21D1ED03E5C0093BE36 /* WarmIMAlertAction.m in Sources */,
+				3A93D2011ECFEA540093BE36 /* WarmIMTestTableViewSwitchCell.m in Sources */,
+				3A4462251ED33247002EA1A3 /* WarmIMImagePickerVideoPreviewBottomView.m in Sources */,
+				3ABC44A11EC07A510016BD28 /* WarmIMHUDView.m in Sources */,
+				3AF0670D1EB21CAF00447A42 /* WarmIMBasicTabbarController.m in Sources */,
+				3A91AB981EB49B6600E40610 /* WarmIMAlbumsListViewController.m in Sources */,
+				3A93D2201ED0690F0093BE36 /* WarmIMAlertTableViewCell.m in Sources */,
+				3AFB4D0F1ED72A3400D9B500 /* WarmIMVideoView.m in Sources */,
+				3A4462201ED1CCA1002EA1A3 /* NSObject+model.m in Sources */,
+				3A93F8EF1ECD437500DFE77C /* WarmIMImagePickerCollectionViewLivePhotoCell.m in Sources */,
+				3A8BAE9C1ECC927700E20B5A /* WarmIMImagePickerCollectionViewImagePreviewCell.m in Sources */,
+				3A8BAE9F1ECC93A300E20B5A /* WarmIMImagePickerPreviewBottomView.m in Sources */,
+				3A93D2071ECFF4BC0093BE36 /* WarmIMTestOptionItemModel.m in Sources */,
+				3ABC449E1EC078EC0016BD28 /* WarmIMHUD.m in Sources */,
+				3AB311051EC1E7BA007D8264 /* WarmIMImagePickerCollectionViewCameraCell.m in Sources */,
+				3AB310FC1EC183BE007D8264 /* WarmIMImagePickerCollectionViewImageCell.m in Sources */,
+				3A905A6F1ECED3A20013068C /* WarmIMNavigationController.m in Sources */,
+				3AB311021EC184B6007D8264 /* WarmIMImagePickerCollectionBottomView.m in Sources */,
+				3A8EA1CF1EBC40AA0045746C /* WarmIMImagePickerFetchResults.m in Sources */,
+				3A6A25981EB322C400C1E5DA /* UIViewController+WarmIMImagePicker.m in Sources */,
+				3A93D20A1ED0041D0093BE36 /* WarmIMTestTableViewMoreCell.m in Sources */,
+				3A93F8F51ECD941A00DFE77C /* WarmIMImagePickerLivePhotoPreviewCell.m in Sources */,
+				3A93D2101ED004430093BE36 /* WarmIMTestTableViewPickCell.m in Sources */,
+				3AF066CD1EB1DF1900447A42 /* main.m in Sources */,
+				3A93D21A1ED035500093BE36 /* WarmIMAlertController.m in Sources */,
+				3A3876C51EB74A04000E3A74 /* WarmIMImagePickerCollectionModel.m in Sources */,
+				3A4462191ED1BAF8002EA1A3 /* WarmIMTestColorModel.m in Sources */,
+				3A2063701ED97B98009F4AD7 /* WarmIMCameraViewController.m in Sources */,
+				3AF067161EB21F9E00447A42 /* WarmIMAboutBasicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066DD1EB1DF1900447A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF066E61EB1DF1900447A42 /* WarmIMImagePickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF066E81EB1DF1900447A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF066F11EB1DF1900447A42 /* WarmIMImagePickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AF066E31EB1DF1900447A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AF066C71EB1DF1800447A42 /* WarmIMImagePickerDemo */;
+			targetProxy = 3AF066E21EB1DF1900447A42 /* PBXContainerItemProxy */;
+		};
+		3AF066EE1EB1DF1900447A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AF066C71EB1DF1800447A42 /* WarmIMImagePickerDemo */;
+			targetProxy = 3AF066ED1EB1DF1900447A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A9BC6631EB5C36C00A30891 /* WarmIMLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9BC6621EB5C36C00A30891 /* en */,
+				3A9BC6641EB5C46200A30891 /* zh-Hans */,
+			);
+			name = WarmIMLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		3AF066D41EB1DF1900447A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF066D51EB1DF1900447A42 /* Base */,
+				3A9BC6651EB5C46200A30891 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AF066D91EB1DF1900447A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF066DA1EB1DF1900447A42 /* Base */,
+				3A9BC6661EB5C46200A30891 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF066F31EB1DF1900447A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AF066F41EB1DF1900447A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AF066F61EB1DF1900447A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9M65W7H87;
+				GCC_PREFIX_HEADER = "WarmIMImagePickerDemo/WarmIMImagePickerDemo-Prefix.pch";
+				INFOPLIST_FILE = WarmIMImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AF066F71EB1DF1900447A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9M65W7H87;
+				GCC_PREFIX_HEADER = "WarmIMImagePickerDemo/WarmIMImagePickerDemo-Prefix.pch";
+				INFOPLIST_FILE = WarmIMImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AF066F91EB1DF1900447A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarmIMImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarmIMImagePickerDemo.app/WarmIMImagePickerDemo";
+			};
+			name = Debug;
+		};
+		3AF066FA1EB1DF1900447A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarmIMImagePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarmIMImagePickerDemo.app/WarmIMImagePickerDemo";
+			};
+			name = Release;
+		};
+		3AF066FC1EB1DF1900447A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WarmIMImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WarmIMImagePickerDemo;
+			};
+			name = Debug;
+		};
+		3AF066FD1EB1DF1900447A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WarmIMImagePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmily.WarmIMImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WarmIMImagePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF066C31EB1DF1800447A42 /* Build configuration list for PBXProject "WarmIMImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF066F31EB1DF1900447A42 /* Debug */,
+				3AF066F41EB1DF1900447A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF066F51EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF066F61EB1DF1900447A42 /* Debug */,
+				3AF066F71EB1DF1900447A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF066F81EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF066F91EB1DF1900447A42 /* Debug */,
+				3AF066FA1EB1DF1900447A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF066FB1EB1DF1900447A42 /* Build configuration list for PBXNativeTarget "WarmIMImagePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF066FC1EB1DF1900447A42 /* Debug */,
+				3AF066FD1EB1DF1900447A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AF066C01EB1DF1800447A42 /* Project object */;
+}

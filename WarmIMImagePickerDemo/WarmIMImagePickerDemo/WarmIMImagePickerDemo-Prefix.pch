@@ -1,0 +1,23 @@
+//
+//  WarmIMImagePickerDemo-Prefix.pch
+//  WarmIMImagePickerDemo
+//
+//  Created by LinJia on 2017/4/27.
+//  Copyright © 2017年 shmily. All rights reserved.
+//
+
+#ifndef WarmIMImagePickerDemo_Prefix_pch
+#define WarmIMImagePickerDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "WarmIMGlobal.h"
+
+#import "UIViewController+WarmIMImagePicker.h"
+
+
+
+#define WarmIMCurrentLanguage ([[NSLocale preferredLanguages] objectAtIndex:0])
+
+#endif /* WarmIMImagePickerDemo_Prefix_pch */
