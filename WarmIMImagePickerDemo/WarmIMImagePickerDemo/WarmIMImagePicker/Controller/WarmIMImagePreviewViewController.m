@@ -469,7 +469,7 @@ WarmIMImagePickerLivePhotoPreviewCellDelegate> {
         tempRequestOptions.networkAccessAllowed = YES;
     }
     WarmIMWeak(tempCell);
-    [[WarmIMImagePickerManager sharedManager].cachingImageManager requestImageForAsset:tempModel.asset targetSize:CGSizeMake(tempModel.asset.pixelWidth, tempModel.asset.pixelHeight) contentMode:PHImageContentModeAspectFill options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+    [[WarmIMImagePickerManager sharedManager].cachingImageManager requestImageForAsset:tempModel.asset targetSize:CGSizeMake(tempModel.asset.pixelWidth, tempModel.asset.pixelHeight) contentMode:PHImageContentModeAspectFill options:tempRequestOptions resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
         if (result) {
             [WeaktempCell.imageView setImage:result];
         }
