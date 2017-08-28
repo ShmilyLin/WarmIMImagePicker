@@ -44,7 +44,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     self.title = [[WarmIMGlobal sharedGlobal] showText:@"Test"];
     self.view.backgroundColor = [UIColor whiteColor];

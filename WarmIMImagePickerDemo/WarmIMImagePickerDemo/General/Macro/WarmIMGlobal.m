@@ -88,7 +88,7 @@ static WarmIMGlobal *_instance;
 }
 
 
-#pragma mark - Language
+#pragma mark - Langua
 
 -(NSString *)showText:(NSString *)key {
     NSString *path = [[NSBundle mainBundle] pathForResource:_localized ofType:@"lproj"];
