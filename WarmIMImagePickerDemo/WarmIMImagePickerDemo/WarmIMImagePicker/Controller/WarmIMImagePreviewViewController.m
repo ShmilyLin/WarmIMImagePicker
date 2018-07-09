@@ -430,6 +430,7 @@ WarmIMImagePickerLivePhotoPreviewCellDelegate> {
     }
     return _sourceSelectedArray.count;
 }
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     WarmIMImagePickerAssetModel *tempModel;
@@ -462,12 +463,14 @@ WarmIMImagePickerLivePhotoPreviewCellDelegate> {
             return tempLivePhotoCell;
         }
     }
+    
     WarmIMImagePickerCollectionViewImagePreviewCell *tempCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"WarmIMImagePickerCollectionViewImagePreviewCell" forIndexPath:indexPath];
     [tempCell setScrollViewContentSizeWithWidth:tempModel.asset.pixelWidth height:tempModel.asset.pixelHeight];
     PHImageRequestOptions *tempRequestOptions = [[PHImageRequestOptions alloc]init];
     if ([WarmIMImagePickerManager sharedManager].isAllowiCloudDownload == WarmIMImagePickeriCloudDownloadTypeAny || [WarmIMImagePickerManager sharedManager].isAllowiCloudDownload == WarmIMImagePickeriCloudDownloadTypeImage) {
         tempRequestOptions.networkAccessAllowed = YES;
     }
+    
     WarmIMWeak(tempCell);
     [[WarmIMImagePickerManager sharedManager].cachingImageManager requestImageForAsset:tempModel.asset targetSize:CGSizeMake(tempModel.asset.pixelWidth, tempModel.asset.pixelHeight) contentMode:PHImageContentModeAspectFill options:tempRequestOptions resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
         if (result) {
@@ -480,6 +483,31 @@ WarmIMImagePickerLivePhotoPreviewCellDelegate> {
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+    WarmIMImagePickerAssetModel *tempModel;
+    if (_type == WarmIMImagePreviewViewControllerTypeAll) {
+        if ([WarmIMImagePickerManager sharedManager].showPicturesSequential) {
+            tempModel = [WarmIMImagePickerManager sharedManager].currentDisplayCollection.imageAssetModels[indexPath.row];
+        }else {
+            tempModel = [WarmIMImagePickerManager sharedManager].currentDisplayCollection.imageAssetModels[[WarmIMImagePickerManager sharedManager].currentDisplayCollection.assetModels.count - indexPath.row - 1];
+        }
+    }else {
+        tempModel = _sourceSelectedArray[indexPath.row];
+    }
+    
+    
+    if ([WarmIMImagePickerManager sharedManager].livePhotoLevel == WarmIMImagePickerLivePhotoLevelNormal) {
+        if (tempModel.asset.mediaSubtypes == PHAssetMediaSubtypePhotoLive) {
+            WarmIMImagePickerLivePhotoPreviewCell *tempLivePhotoCell = (WarmIMImagePickerLivePhotoPreviewCell *)cell;
+            tempLivePhotoCell.scrollView.zoomScale = 1.0;
+            return;
+        }
+    }
+    
+    WarmIMImagePickerCollectionViewImagePreviewCell *tempCell = (WarmIMImagePickerCollectionViewImagePreviewCell *)cell;
+    tempCell.scrollView.zoomScale = 1.0;
 }
 
 #pragma mark - UIScrollViewDelegate

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>可选择的资源类型</string>
+		<key>descriptionContent</key>
+		<string>允许用户选择的资源的类型，可以设置为只选择图片或只选择视频，也可以设置为同时可以选择图片和视频</string>
+		<key>type</key>
+		<integer>0</integer>
+		<key>selected</key>
+		<integer>0</integer>
+		<key>enumContent</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>图片和视频</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>图片</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>视频</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -99,6 +99,7 @@
 - (void)setupSubViews {
     if (!_backgroundView) {
         _backgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, _topViewHeight + _actionTableViewHeight)];
+        _backgroundView.backgroundColor = [UIColor whiteColor];
         [self.view addSubview:_backgroundView];
         if (!_topView) {
             _topView = [[UIView alloc]initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, _topViewHeight)];
@@ -128,6 +129,8 @@
         if (!_actionTableView) {
             _actionTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height + _topViewHeight + _actionTableViewHeight, [UIScreen mainScreen].bounds.size.width, _actionTableViewHeight) style:UITableViewStyleGrouped];
             _actionTableView.translatesAutoresizingMaskIntoConstraints = NO;
+            _actionTableView.sectionHeaderHeight = 0;
+            _actionTableView.sectionFooterHeight = 0;
             _actionTableView.bounces = NO;
             _actionTableView.backgroundColor = [UIColor clearColor];
             _actionTableView.showsVerticalScrollIndicator = NO;

@@ -160,7 +160,8 @@
 
 - (void)scrollViewDidZoom:(UIScrollView *)scrollView {
 //    NSLog(@"正缩放呢，别烦：{%f, %f}", scrollView.contentSize.width, scrollView.contentSize.height);
-    _imageView.center = CGPointMake(scrollView.bounds.size.width > scrollView.contentSize.width ? scrollView.bounds.size.width/2 : scrollView.contentSize.width/2, scrollView.bounds.size.height > scrollView.contentSize.height ? scrollView.bounds.size.height/2 : scrollView.contentSize.height/2);
+    _imageView.center = CGPointMake(scrollView.bounds.size.width > scrollView.contentSize.width ? scrollView.bounds.size.width/2 : scrollView.contentSize.width/2,
+                                    scrollView.bounds.size.height > scrollView.contentSize.height ? scrollView.bounds.size.height/2 : scrollView.contentSize.height/2);
 }
 
 //- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {

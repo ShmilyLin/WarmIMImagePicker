@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SwiftDemo
+
+  Created by LinJia on 2018/7/9.
+  Copyright © 2018年 chongxiaoge. All rights reserved.
+*/
+
+// 首页TabBar
+"Test" = "测试";
+"About" = "关于";
