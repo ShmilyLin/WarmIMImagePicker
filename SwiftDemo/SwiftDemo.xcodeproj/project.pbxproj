@@ -21,6 +21,7 @@
 		3A3CF5C320F37DCB00E0096E /* WarmIMImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A3CF5C520F37DCB00E0096E /* WarmIMImagePicker.strings */; };
 		3A3CF5C720F37DD500E0096E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A3CF5C920F37DD500E0096E /* Localizable.strings */; };
 		3A3CF5CD20F37FBD00E0096E /* TestOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A3CF5CF20F37FBD00E0096E /* TestOptions.plist */; };
+		3A3CF5D420F45C7F00E0096E /* WIMBottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CF5D320F45C7F00E0096E /* WIMBottomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3A3CF5C820F37DD500E0096E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		3A3CF5CA20F37DD600E0096E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3A3CF5D120F37FC100E0096E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/TestOptions.plist; sourceTree = "<group>"; };
+		3A3CF5D320F45C7F00E0096E /* WIMBottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIMBottomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +348,7 @@
 		3A399A4E20F3670600F130DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A3CF5D320F45C7F00E0096E /* WIMBottomButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				3A399A5420F367AC00F130DD /* WIMAboutViewController.swift in Sources */,
 				3A399A0B20F3649700F130DD /* ViewController.swift in Sources */,
 				3A399A0920F3649700F130DD /* AppDelegate.swift in Sources */,
+				3A3CF5D420F45C7F00E0096E /* WIMBottomButtonView.swift in Sources */,
 				3A399A5020F3675200F130DD /* WIMTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
